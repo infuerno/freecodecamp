@@ -1,0 +1,31 @@
+body { font-size: 21px; font-weight: 200; }
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.quote-box {
+  background-color: rgba(0,0,0,0.5);
+  padding: 25px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+#main {
+	background: url(../img/1c4fd43d-e3ca-4dfb-a891-e14ba5af01ea.jpg);
+}
+
+#credits {
+	font-size: 14px;
+	white-space: nowrap
+}
+
+a:hover {color: #4099ff;}
+#author a, #author a:hover {color: white;}
+

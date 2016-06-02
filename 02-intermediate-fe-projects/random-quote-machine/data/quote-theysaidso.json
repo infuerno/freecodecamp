@@ -1,0 +1,25 @@
+{
+    "success": {
+        "total": 1
+    },
+    "contents": {
+        "quotes": [
+            {
+                "quote": "People rise to the occasion without hesitation when they feel inspired and challenged.",
+                "length": "86",
+                "author": "Lorii Myers",
+                "tags": [
+                    "challenged",
+                    "inspire",
+                    "rise-to-occasion",
+                    "tso-management"
+                ],
+                "category": "inspire",
+                "date": "2016-06-01",
+                "title": "Inspiring Quote of the day",
+                "background": "https://theysaidso.com/img/bgs/man_on_the_mountain.jpg",
+                "id": "CKL8U_u988L_LJx3ah_KqQeF"
+            }
+        ]
+    }
+}
