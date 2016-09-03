@@ -1,0 +1,21 @@
+{
+  "name": "show-the-local-weather",
+  "homepage": "https://github.com/infuerno/freecodecamp",
+  "authors": [
+    "Claire Furney <infuerno@fastmail.fm>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owfont": "*"
+  }
+}

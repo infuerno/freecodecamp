@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: Show the Local Weather</title>
+  <link rel='stylesheet prefetch' href='bower_components/bootstrap/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='bower_components/font-awesome/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='bower_components/owfont/css/owfont-regular.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Weather</h1>
+      </div>
+    </div>
+    <div class="row jumbotron">
+      <div class="col-xs-4 text-right">
+        <div id="today-icon"></div>
+      </div>
+      <div class="col-xs-8 text-left">
+        <div><strong id="city">&nbsp;</strong></div>
+        <div id="today-weather1"></div>
+        <div id="today-weather2"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div>Units: <span id="units">Celsius<span></div>
+      </div> 
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>12 day forecast</h2>
+      </div>
+    </div>
+    <div class="row" id="weather">
+      <div class="col-sm-1 day" id="day1">&nbsp;</div>
+      <div class="col-sm-1 day" id="day2">&nbsp;</div>
+      <div class="col-sm-1 day" id="day3">&nbsp;</div>
+      <div class="col-sm-1 day" id="day4">&nbsp;</div>
+      <div class="col-sm-1 day" id="day5">&nbsp;</div>
+      <div class="col-sm-1 day" id="day6">&nbsp;</div>
+      <div class="col-sm-1 day" id="day7">&nbsp;</div>
+      <div class="col-sm-1 day" id="day8">&nbsp;</div>
+      <div class="col-sm-1 day" id="day9">&nbsp;</div>
+      <div class="col-sm-1 day" id="day10">&nbsp;</div>
+      <div class="col-sm-1 day" id="day11">&nbsp;</div>
+      <div class="col-sm-1 day" id="day12">&nbsp;</div>
+    </div>
+  </div>
+
+    <script src='bower_components/jquery/dist/jquery.min.js'></script>
+    <script src='bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+  </html>

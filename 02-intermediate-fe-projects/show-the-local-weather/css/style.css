@@ -1,0 +1,25 @@
+body { 
+	background-color: #333; 
+	color: #eeffff;
+}
+
+h1 {
+	margin: 50px;
+}
+.jumbotron {
+	color: black;
+	font-size: 3em;
+}
+
+.day {
+	border: solid 1px #ccffff;
+	padding: 5px;
+}
+
+.day h4 {
+	margin: 5px;
+}
+
+.day i {
+	display: block;
+}

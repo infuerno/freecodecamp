@@ -1,0 +1,23 @@
+{
+  "name": "build-a-wikipedia-viewer",
+  "homepage": "https://github.com/infuerno/freecodecamp",
+  "authors": [
+    "Claire Furney <infuerno@fastmail.fm>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "jquery-ui": "^1.11.4"
+  }
+}

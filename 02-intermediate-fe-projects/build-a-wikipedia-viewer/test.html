@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>transfer demo</title>
+  <link rel='stylesheet prefetch' href='bower_components/jquery-ui/themes/base/jquery-ui.min.css'>
+  <link rel='stylesheet prefetch' href='bower_components/font-awesome/css/font-awesome.min.css'>
+  <style>
+  body { color: yellow; background-color: steelblue}
+  .ui-effects-transfer {
+    border: 2px solid yellow;
+  }
+  #search-box input { border: 2px solid yellow; background-color: steelblue; border-radius: 20px; padding: 0px 15px; width: 260px; height: 32px;}
+  #search-icon input { border: 2px solid yellow; background-color: steelblue; border-radius: 20px; padding: 0px 15px; width: 0px; height: 32px;}
+  </style>
+  <script src='bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='bower_components/jquery-ui/jquery-ui.min.js'></script>
+</head>
+<body>
+ 
+<div id="green"></div>
+<div id="search-icon"><input/></div>
+<div id="search-box"><input/></div>
+ 
+<script>
+$( "#search-icon" ).position({
+  my: "center",
+  at: "right center",
+  of: "#search-box"
+});
+$( "body" ).click(function() {
+  $( "#search-icon i" ).effect( "transfer", { to: $( "#search-box input" ) }, 1000 );
+});
+</script>
+ 
+</body>
+</html>
