@@ -1,0 +1,35 @@
+body { padding-top: 30px; font-family: Helvetica;}
+
+/* Nav */
+.navbar-brand img { margin: -12px -12px -12px 0; height: 45px;}
+
+/* About */
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+.jumbotron {margin-bottom: 0;}
+#about {padding: 30px; background-color: #ddeeff; height: 600px;}
+#about {color: white; background-color: #f48024; background: url("https://www.dropbox.com/s/xcmcc0d5kxyb36u/trees.jpg?raw=1");}
+
+/* Portfolio */
+#portfolio {padding: 60px; background-color: #bbddff;}
+.portfolio-item {border: solid #99ccff 2px; padding: 2px;}
+
+/* Contact */
+#contact {padding: 60px; background-color: #99ccff; height: 300px;}
+#contact a { padding: 0 20px; }
+#contact .col-xs-12 { padding: 20px 0; }
+a#github-link:hover { color: black; }
+a#twitter-link:hover { color: #4099ff; }
+a#stack-overflow-link:hover {color: #f48024; }
+a#pinterest-link:hover { color: #c92228; }
+a#codepen-link:hover { color: white; }
+.text-left-not-xs { text-align: left; }
+.text-right-not-xs { text-align: right; }
+@media (max-width: 767px) {
+    .text-left-not-xs, .text-right-not-xs  { text-align: inherit; }
+}
+
